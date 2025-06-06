@@ -1,0 +1,60 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Clickaroo – Curated Amazon Finds</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-white text-gray-800 font-sans">
+  <!-- Header -->
+  <header class="bg-purple-600 text-white p-6 flex justify-between items-center">
+    <div class="flex items-center space-x-4">
+      <img src="https://via.placeholder.com/50" alt="Clickaroo Logo" class="rounded-full">
+      <h1 class="text-2xl font-bold">Clickaroo</h1>
+    </div>
+    <nav class="space-x-4">
+      <a href="#categories" class="hover:underline">Categories</a>
+      <a href="#about" class="hover:underline">About</a>
+    </nav>
+  </header>  <!-- Hero Section -->  <section class="p-8 text-center">
+    <h2 class="text-3xl font-bold mb-2">Curated Amazon Picks You'll Love</h2>
+    <p class="text-gray-600">We find the gems so you don’t have to. Discover fun and useful products across categories!</p>
+  </section>  <!-- Categories -->  <section id="categories" class="p-6">
+    <h3 class="text-2xl font-semibold mb-4">Shop by Category</h3>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div class="bg-gray-100 p-4 rounded-xl text-center">
+        <h4 class="font-bold mb-2">Gadgets</h4>
+        <p class="text-sm">Cool tech tools and accessories</p>
+      </div>
+      <div class="bg-gray-100 p-4 rounded-xl text-center">
+        <h4 class="font-bold mb-2">Home Finds</h4>
+        <p class="text-sm">Make life easier around the house</p>
+      </div>
+      <div class="bg-gray-100 p-4 rounded-xl text-center">
+        <h4 class="font-bold mb-2">Gifts</h4>
+        <p class="text-sm">Fun and unique gift ideas</p>
+      </div>
+    </div>
+  </section>  <!-- Featured Products -->  <section class="p-6">
+    <h3 class="text-2xl font-semibold mb-4">Featured Products</h3>
+    <div class="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+      <!-- Product Card Example -->
+      <div class="border p-4 rounded-xl shadow">
+        <img src="https://via.placeholder.com/300x200" alt="Product 1" class="mb-4 mx-auto rounded">
+        <h4 class="font-semibold text-lg">Awesome Gadget</h4>
+        <p class="text-sm mb-2">Top-rated tech tool for daily life.</p>
+        <a href="https://www.amazon.com/dp/Clickaroo93-20" target="_blank" class="inline-block bg-purple-600 text-white px-4 py-2 rounded hover:bg-purple-700 transition">
+          Shop on Amazon
+        </a>
+      </div>
+    </div>
+  </section>  <!-- About Me -->  <section id="about" class="bg-gray-50 p-6">
+    <h3 class="text-2xl font-semibold mb-4">About Clickaroo</h3>
+    <p class="text-gray-700 max-w-3xl mx-auto">
+      Clickaroo was created with one mission: to make discovering awesome Amazon finds easier and more fun. Whether you're into gadgets, home hacks, or quirky gifts, we've got a curated selection to help you find what you didn’t know you needed. As an Amazon Associate, we earn from qualifying purchases—but only recommend things we truly love.
+    </p>
+  </section>  <!-- Footer -->  <footer class="bg-gray-100 p-4 text-center text-sm">
+    © 2025 Clickaroo. Powered by Amazon Associates.
+  </footer>
+</body>
+</
